@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Alquiler de Motocicletas</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/misFunciones.js"></script>	
+
+</head>
+
+<body>
+
+	<h1>Alquiler de Motocicletas</h1>
+
+    <h1>Moto</h1>
+    <div id="resultado"> </div>
+    <button onclick="traerInformacionMoto()" > Consultar</button>
+
+    <div>
+	    <input type="number" id="id" placeholder="id">
+	    <input type="text" id="brand" placeholder="brand">
+	    <input type="number" id="model" placeholder="model">
+	    <input type="number" id="category_Id" placeholder="category_Id">
+        <input type="text" id="name" placeholder="name">    
+	    
+	</div>
+
+    <button onclick="guardarInformacionMoto()"> Guardar</button>
+    <button onclick="editarInformacionMoto()"> Actualizar</button>
+
+
+    <h1>Cliente</h1>
+    <div id="resultado"> </div>
+    <button onclick="traerInformacion()" > Consultar</button>
+
+    <div>
+	    <input type="number" id="id" placeholder="id">
+	    <input type="text" id="name" placeholder="name">
+	    <input type="text" id="email" placeholder="email">
+	    <input type="number" id="age" placeholder="age">
+	    
+	</div>
+
+    <button onclick="guardarInformacion()"> Guardar</button>
+    <button onclick="editarInformacion()"> Actualizar</button>
+
+
+    <h1>Mensaje</h1>
+    <div id="resultado"> </div>
+    <button onclick="traerInformacionMe()" > Consultar</button>
+
+    <div>
+	    <input type="number" id="id" placeholder="id">
+	    <input type="text" id="message" placeholder="message">
+	    
+	</div>
+
+    <button onclick="guardarInformacionMe()"> Guardar</button>
+    <button onclick="editarInformacionMe()"> Actualizar</button>
+
+
+
+
+</body>
+</html>
